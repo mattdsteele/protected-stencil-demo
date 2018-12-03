@@ -5,12 +5,14 @@
   <script type="module" src="/co-true.js" crossorigin="true"></script>
   <script type="module" src="/co-usecredentials.js" crossorigin="use-credentials"></script>
   <script type="module" src="/no-co.js"></script>
-  <script src="/my-stencil-comp/mycomponent.js"></script>
+  <script src="/stencil/mycomponent.js"></script>
+  <script src="/stencil-patched/myfixedcomponent.js"></script>
   <title>Document</title>
 </head>
 <body>
 <h1>Cross-Origin Tests</h1>
 <p>Load in Chrome and Safari to see different behavior</p>
-<my-component first="Foo" last="Bar"></my-component>
+<my-component first="Status" last="Quo"></my-component>
+<my-fixed-component first="Patched" last="Stencil"></my-fixed-component>
 </body>
 </html>

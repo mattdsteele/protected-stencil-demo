@@ -1,0 +1,25 @@
+{
+  "tags": [
+    {
+      "label": "my-fixed-component",
+      "description": "# my-component\n\n\n",
+      "attributes": [
+        {
+          "label": "first",
+          "description": "The first name",
+          "required": false
+        },
+        {
+          "label": "last",
+          "description": "The last name",
+          "required": false
+        },
+        {
+          "label": "middle",
+          "description": "The middle name",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

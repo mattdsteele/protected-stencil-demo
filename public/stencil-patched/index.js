@@ -1,0 +1,1 @@
+// myfixedcomponent: CommonJS Main

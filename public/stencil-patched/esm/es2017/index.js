@@ -1,0 +1,1 @@
+// myfixedcomponent: ES Module
